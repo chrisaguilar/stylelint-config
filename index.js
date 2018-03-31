@@ -1,6 +1,7 @@
-const { join } = require('path');
+const { dirname, join } = require('path');
+const { resolve } = require;
 
-const absPathToModule = (...paths) => join(__dirname, 'node_modules', ...paths);
+const absPathToModule = (m, ...paths) => join(dirname(resolve(m)), ...paths);
 
 module.exports = {
     defaultSeverity: 'warning',
