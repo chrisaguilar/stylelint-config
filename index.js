@@ -7,7 +7,6 @@ module.exports = {
     defaultSeverity: 'warning',
     plugins: [
         absPathToModule('stylelint-declaration-block-no-ignored-properties'),
-        absPathToModule('stylelint-no-browser-hacks', 'lib'),
         absPathToModule('stylelint-no-unsupported-browser-features'),
         absPathToModule('stylelint-order'),
         absPathToModule('stylelint-scss')
@@ -15,7 +14,6 @@ module.exports = {
     rules: {
         // Plugins
         'plugin/declaration-block-no-ignored-properties': true,
-        'plugin/no-browser-hacks': true,
         'plugin/no-unsupported-browser-features': true,
 
         // The following 2 rules were taken directly from Palantir (and I'm very thankful for it!)
