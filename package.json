@@ -1,6 +1,6 @@
 {
     "name": "@chrisaguilar/stylelint-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "My personal stylelint configuration.",
     "main": "index.js",
     "repository": {
