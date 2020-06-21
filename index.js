@@ -14,7 +14,15 @@ module.exports = {
         'plugin/no-unsupported-browser-features': [
             true,
             {
-                browsers: ['> 1%', 'Last 2 versions']
+                browsers: [
+                    'defaults',
+                    'last 2 versions',
+                    '>5%',
+                    'not ie > 0',
+                    'not op_mini all',
+                    'not op_mob > 0',
+                    'not dead'
+                ]
             }
         ],
         // Stylistic Issues
