@@ -13,12 +13,18 @@ Then, in `<projectRoot>/.stylelintrc`:
 }
 ```
 
+OR
+
+In package.json:
+
+```json
+{
+    "stylelint": {
+        "extends": "@chrisaguilar/stylelint-config"
+    }
+}
+```
+
 ## License
 
 MIT
-
-## TODO
-
-- Add whitespace rules
-- Add S[AC]SS rules
-- Work out any remaining kinks
