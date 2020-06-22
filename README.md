@@ -1,27 +1,19 @@
 # @chrisaguilar/stylelint-config
 
+> My personal [stylelint](https://stylelint.io) configuration
+
 ## Usage
 
-`$ npm i -D stylelint @chrisaguilar/stylelint-config`
+### Install
 
-Then, in `<projectRoot>/.stylelintrc`:
+`$ npm i -D @chrisaguilar/stylelint-config`
 
-```json
+### In Your Stylelint Configuration File
+
+```jsonc
 {
-    "extends": "@chrisaguilar/stylelint-config",
-    "rules": { "..." }
-}
-```
-
-OR
-
-In package.json:
-
-```json
-{
-    "stylelint": {
-        "extends": "@chrisaguilar/stylelint-config"
-    }
+    // ...
+    "extends": "@chrisaguilar/stylelint-config"
 }
 ```
 
