@@ -32,7 +32,7 @@
         "stylelint-scss": "^3.18.0"
     },
     "devDependencies": {
-        "@chrisaguilar/prettier-config": "^1.0.0"
+        "@chrisaguilar/prettier-config": "^1.1.0"
     },
     "prettier": "@chrisaguilar/prettier-config"
 }
