@@ -12,6 +12,9 @@ jobs:
               uses: actions/checkout@v2
             - name: Setup Node
               uses: actions/setup-node@v1
+              with:
+                  always-auth: true
+                  scope: @chrisaguilar
             - name: Install Packages
               run: npm ci
             - name: Publish to NPM
