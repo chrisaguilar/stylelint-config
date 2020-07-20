@@ -14,7 +14,7 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   always-auth: true
-                  scope: @chrisaguilar
+                  scope: '@chrisaguilar'
             - name: Install Packages
               run: npm ci
             - name: Publish to NPM
